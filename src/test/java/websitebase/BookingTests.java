@@ -33,8 +33,6 @@ public class BookingTests extends BaseTest {
                 .selectAmount()
                 .clickReserveBtn()
                 .verifyHotelName();
-
-
     }
 
 
