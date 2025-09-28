@@ -22,7 +22,7 @@ public class BookingTests extends BaseTest {
              5.In details page: Select the bed and amount and click I’ll reserve button to navigate to the
                confirmation page
             """, dataProvider = "csvData")
-    public void bookingTulipHotelTestcase(TestData data) {
+    public void e2e_BookingTulipHotelFromSearchWithDates(TestData data) {
         homePage.verifyHeader()
                 .enterDestination(data.getDestination())
                 .enterDates(data.getCheckInDate(), data.getCheckOutDate())
