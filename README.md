@@ -16,4 +16,4 @@ This is an automation project for the Booking website
 * Apply best practices.
 ## How to run:
 * You can run it through Maven by clicking the life cycle option "test" or "verify" but first you need to download Maven to your computer and open a command prompt in the project directory, then type the command mvn test
-* or you can run it through IntelliJ IDE by opening the project in it and run it through the IDE 
+* You can run it through IntelliJ IDE by opening the project in it and running it through the IDE 
